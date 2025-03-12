@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/news.dart';
 
 class NewsService {
-  final String _apiKey = '95d24d797c734d7ca6230e6f4eca1c82'; // Your NewsAPI key
+  final String _apiKey = 'Your NewsAPI key'; 
   final String _baseUrl = 'https://newsapi.org/v2';
 
   Future<List<News>> fetchTopHeadlines({String category = ''}) async {
